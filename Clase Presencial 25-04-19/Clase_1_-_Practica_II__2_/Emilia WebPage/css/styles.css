@@ -1,0 +1,66 @@
+body {
+  font-family: 'Opens Sans', sans-serif;
+  background-color: white;
+  background-position: right;
+}
+
+section {
+  background-color: white;
+  width: 500px;
+  height: auto;
+  margin-left: 0px;
+}
+
+.home_nav_vertical nav a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 10px;
+  color: grey;
+  text-decoration: none;
+  margin-left: 30px
+}
+
+.social {
+  text-align: left;
+  padding-top: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+p {
+  display: block;
+  height: 500px;
+  font-size: 40px;
+  text-align: left;
+  font-family: 'Work-Sans', sans-serif;
+  line-height: auto;
+  background-color: white;
+  margin-left: 50px;
+}
+
+.imagen {
+  display: block;
+  position: absolute;
+  margin-top: -1000px;
+  margin-left: 500px;
+}
+
+.mensaje {
+  position: relative;
+  margin-left: 10px;
+  font-size: 94px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+.caja_mensaje {
+  display: block;
+  width: auto;
+  position: relative;
+  height: 105px;
+  margin-left: 10px;
+  background: rgba(255, 255, 255, 0.5);
+}

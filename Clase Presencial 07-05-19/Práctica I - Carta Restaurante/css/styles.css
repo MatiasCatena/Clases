@@ -1,0 +1,59 @@
+body {
+  width: 960px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+header {
+border-bottom: 1px solid;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: black;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: sans-serif;
+  color: black;
+  font-weight: 900;
+}
+
+.contenedorB {
+  width: 300px;
+  float: left;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.menu nav a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 5px;
+  color: gray;
+  text-decoration: none;
+}
+
+.contenedorC {
+  width: 610px;
+  padding: 15px;
+  float: right;
+  border-left: 1px solid;
+  box-sizing: border-box;
+}
+
+.contenedorD {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+  footer{
+   padding: 20px;
+   background-color: gainsboro;
+   border-top: 1px solid black;
+   clear: both;
+}
