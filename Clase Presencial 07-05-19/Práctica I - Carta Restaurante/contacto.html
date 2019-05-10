@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>PRACTICA I 07/05/2019 (2)</title>
+  </head>
+  <body>
+    <div class="formulario">
+     <form action="script.php" method="post">
+      <h1 id="contacto"> Página de contacto </h1>
+
+      <p id="volver_al_menu"><a href="carta.html"> Volver al menú </a></p>
+
+      <h2 id="formulario_h2"> Formulario </h2>
+      <h3 class="pregunta"> ¿De dónde sos? </h3>
+      <select class="margin" name="select">
+        <option value="opcion" selected>Seleccione una opción</option>
+        <option value="rosario">Rosario</option>
+        <option value="otra">Otra ciudad</option>
+      </select>
+
+      <h3 class="pregunta"> ¿Qué te pareció la iluminación del ambiente? </h3>
+        <input class="margin" type="checkbox" name="opc1" value="perfecta"> Muy acorde<br>
+        <input class="margin" type="checkbox" name="opc2" value="buena"> Buena, pero podría mejorar<br>
+        <input class="margin" type="checkbox" name="opc3" value="mala"> Mala<br>
+
+      <h3 class="pregunta"> ¿Qué tipo de plato fue el que más te gustó? </h3>
+        <input class="margin" type="checkbox" name="opc1" value="entrada"> Entrada<br>
+        <input class="margin" type="checkbox" name="opc2" value="plato_pricipal"> Plato principal<br>
+        <input class="margin" type="checkbox" name="opc3" value="postre"> Postre<br>
+        <input class="margin" type="checkbox" name="opc4" value="otro"> Otros<br>
+
+      <h3 class="pregunta"> ¿Recomendarías el lugar? </h3>
+
+        <label class="radio-inline"> <input type="radio" name="optradio">Sí</label>
+        <label class="radio-inline"> <input type="radio" name="optradio">No</label>
+
+
+      <h3 class="pregunta"> ¿Porqué? </h3>
+      <textarea class="margin" rows="9" cols="80"></textarea>
+
+      <h3 class="pregunta"> Dejanos tus datos y nos pondremos en contacto con vos </h3>
+
+      <label class="margin"> Nombre: <input type="text" placeholder="tu nombre" name="nombre" required> </label>
+      <br>
+      <br>
+      <label class="margin"> Email: <input type="email" placeholder="tu email" name="email" required> </label>
+      <br>
+      <br>
+      <button class="boton" type="submit" name="enviar"> Enviar </button>
+      <button class="boton" type="reset" name="reset"> Resetear </button>
+      <br>
+      <br>
+     </form>
+    </div>
+  </body>
+</html>
