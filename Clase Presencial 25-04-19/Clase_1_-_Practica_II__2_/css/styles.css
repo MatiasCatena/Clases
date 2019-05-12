@@ -1,12 +1,200 @@
 body {
   font-family: 'Opens Sans', sans-serif;
-  background-color: black;
+  background-color: white;
+  background-position: right;
 }
 
-nav {
-  text-align: right;
-  position: relative;
-  width: 100%;
-  height: 100px;
+section {
   background-color: white;
+  width: 500px;
+  height: auto;
+  margin-left: 0px;
+}
+
+.home_nav_vertical nav a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 10px;
+  color: grey;
+  text-decoration: none;
+  margin-left: 30px
+}
+
+.social {
+  text-align: left;
+  padding-top: 10px;
+  margin-left: 40px;
+}
+
+.social a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  position: relative;
+  display: block;
+  height: 500px;
+  font-size: 40px;
+  text-align: left;
+  font-family: 'Work-Sans', sans-serif;
+  line-height: auto;
+  background-color: white;
+  margin-left: 5%;
+  margin-top: 60%;
+}
+
+.imagen {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 510px;
+}
+
+.mensaje {
+  position: relative;
+  margin-left: 10px;
+  font-size: 94px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+.caja_mensaje {
+  display: block;
+  width: auto;
+  position: relative;
+  height: 105px;
+  margin-left: 10px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* Acá comienza el css de about.html*/
+
+.home_nav_horizontal nav a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline; /* Muestra los objetos alineados */
+  color: black;
+  text-decoration: none;
+  float: right;
+  padding: 5px;
+  padding-top: 30px;
+  z-index: 0;
+}
+
+.caja_menu {
+  margin-top: 2.5%;
+  display: block;
+  width: auto;
+  position: relative;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: -1;
+}
+
+.imagen-about {
+  position: absolute;
+  top: 0px;
+  left: 510px;
+  z-index: -2;
+}
+
+.social_about {
+  text-align: right;
+  padding-top: 20px;
+}
+
+.social_about a {
+  text-decoration: none;
+  color: black;
+}
+
+.p_about {
+  font-size: 80px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  height: auto;
+  margin-top: 8%;
+  margin-left: 0%;
+  display: block;
+  box-sizing: border-box;
+  float: left;
+}
+
+.p_1 {
+  font-size: 35px;
+  font-family: 'Raleway', sans-serif;
+  color: #51ba93;
+  position: relative;
+  height: auto;
+  margin-top: 20%;
+  left: -21%;
+  display: inline;
+  box-sizing: border-box;
+  float: left;
+  background-color: transparent;
+}
+
+.p_2 {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: #51ba93;
+  position: relative;
+  height: auto;
+  margin-top: 26%;
+  left: -65%;
+  display: inline;
+  box-sizing: border-box;
+  float: left;
+  background-color: transparent;
+}
+
+.p_3 {
+  font-size: 35px;
+  font-family: 'Raleway', sans-serif;
+  color: #51ba93;
+  position: relative;
+  height: auto;
+  margin-top: 5%;
+  margin-left: 4%;
+  display: inline;
+  box-sizing: border-box;
+  float: left;
+  background-color: transparent;
+}
+
+.p_4 {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: #51ba93;
+  position: relative;
+  height: auto;
+  margin-top: 11%;
+  left: -27%;
+  display: inline;
+  box-sizing: border-box;
+  float: left;
+  background-color: transparent;
+}
+
+/* Acá comienza el css de contact.html*/
+
+.contact {
+  margin-top: 10%;
+  margin-left: 0%;
+  font-size: 80px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}
+
+.here {
+  margin-top: -22%;
+  margin-left: 0%;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
 }
