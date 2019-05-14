@@ -56,3 +56,12 @@ body {
 .main .aside {
     width: 33%;
 }
+
+@media (max-width: 460px){
+    background-color: blue;
+
+    .listaEnlinea {
+        display: block;
+    }
+
+}
