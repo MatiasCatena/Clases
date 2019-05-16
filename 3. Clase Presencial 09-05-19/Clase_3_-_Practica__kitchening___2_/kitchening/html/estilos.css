@@ -1,0 +1,219 @@
+/* css de mobile */
+
+* {
+  box-sizing: border-box;
+}
+
+section.banner {
+  display: none;
+}
+
+body {
+  background-image: url("images/bg-body.png");
+  font-family: sans-serif;
+}
+
+img.logo {
+  border-radius: 50%;
+  border: 2px solid gray;
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  margin-top: 25px;
+}
+
+header a span.fa {
+  background-color: gray;
+  font-size: 50px;
+  padding: 20px;
+  color: white;
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 84px;
+  display: block;
+}
+
+header {
+  margin-bottom: 10px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: none;
+}
+
+header nav ul li {
+  background-color: grey;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 2px;
+  text-transform: uppercase;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+header nav:hover ul {
+  display: block;
+}
+
+img.photo {
+  width: 100%;
+}
+
+div.photo-container {
+  position: relative;
+}
+
+img.special {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+a.zoom {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  text-transform: uppercase;
+  padding: 5px;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+}
+
+article.product {
+  margin-bottom: 20px;
+}
+
+article.product p {
+  color: gray;
+}
+
+a.more {
+  color: white;
+  text-decoration: none;
+  background-color: gray;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+footer {
+  margin-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer ul li {
+  background-color: red;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 2px;
+  text-transform: uppercase;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* termina css de mobile y usamos media query para escritorio */
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  header nav a.toggle-nav {
+    display: none;
+  }
+
+  header nav ul {
+    display: block;
+    overflow: hidden;
+  }
+
+  header nav ul li {
+    float: left;
+    width: 12.5%;
+    margin-right: 5%;
+  }
+
+  header nav ul li:last-child {
+    margin-right: 0;
+  }
+
+  section.banner {
+    display: block;
+  }
+
+  section.banner img {
+    width: 100%;
+  }
+
+  article.product {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+  }
+
+  article.product:nth-child(3n) {
+    margin-right: 0;
+}
+
+  section.vip-products {
+    overflow: hidden;
+  }
+
+/*  CON FLEXBOX:
+   article.product {
+    width: 30%; (el wrap respeta los anchos)
+  }
+
+  article.product:nth-child(3n) {
+    margin-right: 0;
+}
+
+  section.vip-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }*/
+
+  div.container {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  footer ul {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  footer ul li {
+    border-right:  1px solid white;
+    text-transform: capitalize;
+    background-color: transparent;
+  }
+
+  footer ul li:last-child {
+    border-right: 0;
+  }
+}
